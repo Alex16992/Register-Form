@@ -127,3 +127,223 @@ input:last-child{
 .other img:last-child{
     margin-right: 0;
 }
+
+.other img:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-height: 850px) {
+    .left img {
+        position: absolute;
+        top: 350px; left: 550px;
+    }
+
+    form{
+        margin-bottom: 10px;
+    }
+
+    input{
+        border-radius: 6px;
+        padding: 19px 17px;
+        margin-bottom: 12px;
+    }
+
+    input[type="password"]{
+        padding: 19px 50px 19px 17px;
+    }
+
+    .right p{
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 1540px) {
+    main {
+        padding: 0px 100px;
+    }
+
+    .left img {
+        position: absolute;
+        top: 350px; left: 450px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    main {
+        padding: 0px 50px;
+    }
+
+    .left img {
+        position: absolute;
+        top: 350px; left: 370px;
+    }
+
+    .right{
+        width: 100%;
+    }
+}
+
+@media screen and (max-height: 740px) {
+    .left img {
+        display: none;
+    }
+
+    form{
+        margin-bottom: 10px;
+    }
+
+    input{
+        border-radius: 6px;
+        padding: 15px 17px;
+        margin-bottom: 12px;
+    }
+
+    input[type="password"]{
+        padding: 15px 50px 15px 17px;
+    }
+
+    .right p{
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 1140px) {
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .left img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    body{
+        overflow: scroll;
+    }
+    
+    main {
+        grid-template-columns: 1fr;
+    }
+
+    header{
+        padding: 30px 50px;
+    }
+
+    .left h2 {
+        margin-bottom: 30px;
+    }
+
+    .right h2 {
+        margin: 28px 0;
+    }
+}
+
+@media screen and (max-height: 1060px) and (max-width: 1080px) {
+    main {
+        padding: 0px 15px;
+    }
+
+    h1 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    h2 {
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    header {
+        padding: 10px 15px;
+    }
+
+    form{
+        margin-bottom: 10px;
+    }
+
+    .right p{
+        margin-bottom: 10px;
+    }
+
+    .right p {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .right p {
+        display: none;
+    }
+    form{
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-height: 850px) {
+    input{
+        border-radius: 6px;
+        padding: 15px 17px;
+        margin-bottom: 12px;
+    }
+
+    input[type="password"]{
+        padding: 15px 50px 15px 17px;
+    }
+}
+
+@media screen and (max-height: 790px) and (max-width: 1080px) {
+    h2{
+        text-align: center;
+    }
+    
+    .left h1{
+        display: none;
+    }
+
+    .left h2{
+        display: none;
+    }
+
+    .left p{
+        text-align: center;
+    }
+}
+
+@media screen and (max-height: 675px) {
+    .right h2 {
+        margin: 5px 0;
+    }
+}
+
+@media screen and (max-height: 670px) and (min-width: 1080px) {
+
+    main{
+        grid-template-columns: 2fr 3fr;
+    }
+
+    .right h2 {
+        margin: 5px 0;
+    }
+
+    form{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    input{
+        margin: 10px 0;
+        width: 90%;
+    }
+
+    input[type="submit"]{
+        margin: 10px 0;
+        width: 90%;
+    }
+
+    .password svg {
+        position: absolute;
+        top: 28px;
+        right: 43px;
+    }
+}
