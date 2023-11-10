@@ -3,7 +3,7 @@ body{
     overflow: hidden;
     color: #000;
     font-family: Poppins;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 500;
 }
 
@@ -26,6 +26,10 @@ header {
     padding: 30px 42px;
     font-size: 25px;
     font-weight: 600;
+}
+
+header a{
+    margin-right: 20px;
 }
 
 main {
